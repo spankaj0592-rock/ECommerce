@@ -38,5 +38,6 @@ export const fetchProducts = createAsyncThunk('products/fetch', async () => {
     const res = await fetch('https://my-json-server.typicode.com/spankaj0592-rock/ECommerce/db');
     const data = await res.json();
     return data;
+
 });
 
