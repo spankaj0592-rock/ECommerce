@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { add } from '../store/cartSlice';
+
 import { fetchProducts } from '../store/productSlice';
 import { STATUSES } from '../store/productSlice';
-import { Link, NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 const Products = () => {
     const dispatch = useDispatch();
     const { data: products, status } = useSelector((state) => state.product);
