@@ -7,7 +7,7 @@ export const STATUSES = Object.freeze({
 });
 
 const productSlice = createSlice({
-    name: 'product',
+    name: 'data',
     initialState: {
         data: [],
         status: STATUSES.IDLE,
