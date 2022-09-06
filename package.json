@@ -1,7 +1,7 @@
 {
   "name": "redux-app",
   "version": "0.1.0",
-  "homepage": "https://spankaj0592-rock.github.io/ECommerce/",
+  "homepage": "https://spankaj0592-rock.github.io/ECommerce",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
